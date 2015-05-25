@@ -5,7 +5,22 @@
  */
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
-
+/* sub menus arrows */
+.navbar-nav .sub-arrow, .navbar-nav .collapsible .sub-arrow {
+  position:static;
+  margin-top:0;
+  margin-right:0;
+  margin-left:6px;
+  display:inline-block;
+  width:0;
+  height:0;
+  overflow:hidden;
+  vertical-align:middle;
+  border-top:4px solid;
+  border-right:4px dashed transparent;
+  border-bottom:4px dashed transparent;
+  border-left:4px dashed transparent;
+}
 #content {
   background: #fff;
   height: 1500px; /* presetting the height */
