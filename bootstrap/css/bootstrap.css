@@ -1490,7 +1490,7 @@ dd {
   .dl-horizontal dd {
     margin-left: 180px;
   }
-}
+}/*
 abbr[title],
 abbr[data-original-title] {
   cursor: help;
@@ -1607,6 +1607,7 @@ pre code {
   max-height: 340px;
   overflow-y: scroll;
 }
+*/
 .container {
   padding-right: 15px;
   padding-left: 15px;
@@ -1634,7 +1635,7 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
-.row {
+/*.row {
   margin-right: -15px;
   margin-left: -15px;
 }
@@ -2274,7 +2275,7 @@ pre code {
     margin-left: 0;
   }
 }
-table {
+*//*table {
   background-color: transparent;
 }
 caption {
@@ -2536,7 +2537,7 @@ label {
   max-width: 100%;
   margin-bottom: 5px;
   font-weight: bold;
-}
+}*/
 input[type="search"] {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -2572,7 +2573,7 @@ output {
   font-size: 14px;
   line-height: 1.42857143;
   color: #555;
-}
+}/*
 .form-control {
   display: block;
   width: 100%;
@@ -2653,7 +2654,7 @@ input[type="search"] {
 }
 .form-group {
   margin-bottom: 15px;
-}
+}*/
 .radio,
 .checkbox {
   position: relative;
@@ -2715,7 +2716,7 @@ fieldset[disabled] .checkbox-inline {
 fieldset[disabled] .radio label,
 fieldset[disabled] .checkbox label {
   cursor: not-allowed;
-}
+}/*
 .form-control-static {
   min-height: 34px;
   padding-top: 7px;
@@ -3406,7 +3407,7 @@ input[type="submit"].btn-block,
 input[type="reset"].btn-block,
 input[type="button"].btn-block {
   width: 100%;
-}
+}*/
 .fade {
   opacity: 0;
   -webkit-transition: opacity .15s linear;
