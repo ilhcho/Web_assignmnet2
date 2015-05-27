@@ -1,94 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>SmartMenus jQuery Website Menu - Bootstrap Addon - Navbar</title>
+  <title>SmartMenus jQuery Website Menu - Bootstrap Addon - Navbar</title>
 
-
-    <!-- Bootstrap core CSS -->
-    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-
-    <!-- <link href="index.css" rel="stylesheet"> -->
+  <!-- Index Navi and Responsive Css -->
+  <link href="index.css" rel="stylesheet">
 
 
-	
-  </head>
-
-  <body style="padding-top:20px;">
-  
-
-    <div class="container">
 
 
-	<div id="wrapper">
+
+  <!--Start of Zopim Live Chat Script-->
+  <script type="text/javascript">
+    window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+      d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+        _.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+        $.src="//v2.zopim.com/?32ygD8lj8HK90bsB4QmYi4f5ZCIuHb8X";z.t=+new Date;$.
+        type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+      </script>
+      <!--End of Zopim Live Chat Script-->
+    </head>
+
+    <body>
+
+      <div class="container">
+       <div id="wrapper">
 
         <header>
-		<h1>Simple Smart Sticky Navigation Bar</h1>
+          <div class="header">
+            <a href="index.html"><img id="powell_logo" src="img/logos/logo.png" alt="Powell's books logo"></a> 
+
+            <div id="sns_logos">  
+
+
+              <div class="search">
+                <form method="get" action="/int/utilities/search/">
+                  <input class="textfield gsa-search-field ui-autocomplete-input" type="text" placeholder="Search" name="q" value="" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true">
+                  <button type="submit" aria-label="Left Align">
+                   <i class="icon-search"></i>
+                  </button>
+                </form>
+              </div>             
+              <a href=""><img src="img/logos/facebook.png" alt="Facebook Icon"></a>
+              <a href=""><img src="img/logos/twitter.png" alt="Titter Icon"></a>
+              <a href=""><img src="img/logos/youtube.png" alt="Youtube Icon"></a>
+              <a href=""><img src="img/logos/instagram.png" alt="Instagram Icon"></a>
+
+            </div>
+          </div>
         </header>
 
 
+        <!-- Static navbar -->
+        <div class="navbar navbar-default" role="navigation">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">HOME</a>
+          </div>
+          <div class="navbar-collapse collapse">
 
+            <!-- Left nav -->
+            <ul class="nav navbar-nav">
+              <li><a href="about.html">ABOUT US</a></li>
+              <li><a href="#">ORDER</a></li>
+              <li><a href="#">SEARCH</a></li>         
+              <li><a href="#">BOOKS</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">CATEGORY1</a></li>
+                  <li><a href="#">CATEGORY2</a></li>
+                  <li><a href="#">CATEGORY3</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Nav header</li>
+                  <li><a href="#">CATEGORY4</a></li>
+                  <li><a href="#">CATEGORY5</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">A long sub menu</a>
 
-      <!-- Static navbar -->
-      <div class="navbar navbar-default" role="navigation">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Project name</a>
+                      </li>
+                      <li><a href="#">Another link</a></li>
+                      <li><a href="#">One more link</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
         </div>
-        <div class="navbar-collapse collapse">
 
-          <!-- Left nav -->
-          <ul class="nav navbar-nav">
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Dropdown</a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">A long sub menu</a>
-                      
-                    </li>
-                    <li><a href="#">Another link</a></li>
-                    <li><a href="#">One more link</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-          </ul>
+        <div id="content">
+         <!-- Img slide -->
+         <div id="amazingslider-wrapper-1"class="imgslide1">
+          <div id="amazingslider-1" class="imgslide2">
+            <ul class="amazingslider-slides" style="display:none;">
+              <li><img src="img/index_slide/image1.jpg" alt="H1" /></li>
+              <li><img src="img/index_slide/image2.jpg" alt="what" /></li>
+              <li><img src="img/index_slide/image3.jpg" alt="image3" /></li>
+              <li><img src="img/index_slide/image4.jpg" alt="image4" /></li>
+              <li><img src="img/index_slide/image5.jpg" alt="image5" /></li>
+            </ul>
+            <ul class="amazingslider-thumbnails" style="display:none;">
+              <li><img src="img/index_slide/image1-tn.jpg" alt="image1" /></li>
+              <li><img src="img/index_slide/image2-tn.jpg" alt="image2" /></li>
+              <li><img src="img/index_slide/image3-tn.jpg" alt="image3" /></li>
+              <li><img src="img/index_slide/image4-tn.jpg" alt="image4" /></li>
+              <li><img src="img/index_slide/image5-tn.jpg" alt="image5" /></li>
+            </ul>
+            <div><a href="http://www.powells.com/" title="Powell's books">Powell's books</a></div>
+          </div>
+        </div>
 
-        
 
-        </div><!--/.nav-collapse -->
       </div>
-       
-    
-    	<div id="content">
-                <p>Website content here.</p>
-      
-              
-    </div>
-</div>
 
 
-
-    </div> <!-- /container -->
+      <footer>
+        <div class="footer"></div>
+      </footer>
+    </div><!-- Wrappe-->
+  </div> <!-- /container -->
 
 
 
@@ -97,14 +137,18 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
-
     <!-- SmartMenus jQuery plugin -->
     <script type="text/javascript" src="jquery.smartmenus.js"></script>
-
     <!-- SmartMenus jQuery Bootstrap Addon -->
     <script type="text/javascript" src="bootstrap/jquery.smartmenus.bootstrap.js"></script>
+    <!--      Above four are related to navigation bar-->
 
-	<script type="text/javascript" src="index.js"></script>
+    <!-- This is for Stick Navigation -->
+    <script type="text/javascript" src="index.js"></script>
 
+
+    <!-- Following Two script is for Image Slide -->
+    <script src="sliderengine/amazingslider.js"></script>
+    <script src="sliderengine/initslider-1.js"></script>
   </body>
-</html>
+  </html>
