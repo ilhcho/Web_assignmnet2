@@ -12,8 +12,6 @@
 
 
 
-
-
   <!--Start of Zopim Live Chat Script-->
   <script type="text/javascript">
     window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
@@ -34,7 +32,45 @@
           <div class="header">
             <a href="index.html"><img id="powell_logo" src="img/logos/logo.png" alt="Powell's books logo"></a> 
 
-            <div id="sns_logos">  
+            <div id="sns_logos"> 
+              <div class="sign">
+                <a href="">Sign in</a>
+                <a href="">/</a>
+                <a href="" class="my_popup_open">Sign up </a>
+
+                <!-- Sign up Content -->
+                <div id="my_popup" class="sign_up">
+
+                  <a class="my_popup_close" id="close_button">x</a>
+                  <header>   
+                    <h3 id="sign_up_title">Sign Up</h3>    
+                  </header>
+                  <form action="#">
+                    <table class="sign_table">
+                      <tr>
+                        <td><label for="uemail">Email:</label></td>
+                        <td><input class="sign_input" name="uemail" type="text" placeholder="userID@email.com*"  id="uemail" size="35" maxlength="50"><br /></td>
+                      </tr>
+                      <tr>
+                        <td><label for="ufname">First Name:</label></td>
+                        <td><input class="sign_input" name="ufname" type="text" placeholder="Required*"  id="ufname" size="35" maxlength="50"></td>
+                      </tr>
+                      <tr>
+                        <td><label for="ulname">Last Name:</label></td>
+                        <td> <input class="sign_input" name="ulname" type="text" placeholder="Required*"  id="ulname" size="35" maxlength="50"></td>
+                      </tr>
+                      <tr>
+                        <td><label for="upass">Password:</label></td>
+                        <td> <input class="sign_input" name="upass" type="password" placeholder="At least 7 Character*"  id="upass" size="35" maxlength="50"></td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td><button class="btn" name="Submit">SUBMIT</button></td>
+                      </tr>      
+                    </table>               
+                  </form>
+                </div> <!--end of my_popup-->  
+              </div> <!-- end of sing-->
 
 
               <div class="search">
@@ -42,93 +78,92 @@
                   <input class="textfield gsa-search-field ui-autocomplete-input" type="text" placeholder="Search" name="q" value="" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true">
                   <button type="submit" aria-label="Left Align">
                    <i class="icon-search"></i>
-                  </button>
-                </form>
-              </div>             
-              <a href=""><img src="img/logos/facebook.png" alt="Facebook Icon"></a>
-              <a href=""><img src="img/logos/twitter.png" alt="Titter Icon"></a>
-              <a href=""><img src="img/logos/youtube.png" alt="Youtube Icon"></a>
-              <a href=""><img src="img/logos/instagram.png" alt="Instagram Icon"></a>
+                 </button>
+               </form>
+             </div>             
+             <a href=""><img src="img/logos/facebook.png" alt="Facebook Icon"></a>
+             <a href=""><img src="img/logos/twitter.png" alt="Titter Icon"></a>
+             <a href=""><img src="img/logos/youtube.png" alt="Youtube Icon"></a>
+             <a href=""><img src="img/logos/instagram.png" alt="Instagram Icon"></a>
+           </div><!-- End of sns_logos -->
+         </div><!-- End of header -->
+       </header>
 
-            </div>
-          </div>
-        </header>
 
-
-        <!-- Static navbar -->
-        <div class="navbar navbar-default" role="navigation">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">HOME</a>
-          </div>
-          <div class="navbar-collapse collapse">
-
-            <!-- Left nav -->
-            <ul class="nav navbar-nav">
-              <li><a href="about.html">ABOUT US</a></li>
-              <li><a href="#">ORDER</a></li>
-              <li><a href="#">SEARCH</a></li>         
-              <li><a href="#">BOOKS</a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">CATEGORY1</a></li>
-                  <li><a href="#">CATEGORY2</a></li>
-                  <li><a href="#">CATEGORY3</a></li>
-                  <li class="divider"></li>
-                  <li class="dropdown-header">Nav header</li>
-                  <li><a href="#">CATEGORY4</a></li>
-                  <li><a href="#">CATEGORY5</a>
-                    <ul class="dropdown-menu">
-                      <li><a href="#">Action</a></li>
-                      <li><a href="#">Another action</a></li>
-                      <li><a href="#">A long sub menu</a>
-
-                      </li>
-                      <li><a href="#">Another link</a></li>
-                      <li><a href="#">One more link</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div><!--/.nav-collapse -->
+       <!-- Static navbar -->
+       <div class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">HOME</a>
         </div>
+        <div class="navbar-collapse collapse">
 
-        <div id="content">
-         <!-- Img slide -->
-         <div id="amazingslider-wrapper-1"class="imgslide1">
-          <div id="amazingslider-1" class="imgslide2">
-            <ul class="amazingslider-slides" style="display:none;">
-              <li><img src="img/index_slide/image1.jpg" alt="H1" /></li>
-              <li><img src="img/index_slide/image2.jpg" alt="what" /></li>
-              <li><img src="img/index_slide/image3.jpg" alt="image3" /></li>
-              <li><img src="img/index_slide/image4.jpg" alt="image4" /></li>
-              <li><img src="img/index_slide/image5.jpg" alt="image5" /></li>
-            </ul>
-            <ul class="amazingslider-thumbnails" style="display:none;">
-              <li><img src="img/index_slide/image1-tn.jpg" alt="image1" /></li>
-              <li><img src="img/index_slide/image2-tn.jpg" alt="image2" /></li>
-              <li><img src="img/index_slide/image3-tn.jpg" alt="image3" /></li>
-              <li><img src="img/index_slide/image4-tn.jpg" alt="image4" /></li>
-              <li><img src="img/index_slide/image5-tn.jpg" alt="image5" /></li>
-            </ul>
-            <div><a href="http://www.powells.com/" title="Powell's books">Powell's books</a></div>
-          </div>
+          <!-- Left nav -->
+          <ul class="nav navbar-nav">
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="#">ORDER</a></li>
+            <li><a href="#">SEARCH</a></li>         
+            <li><a href="#">BOOKS</a>
+              <ul class="dropdown-menu">
+                <li><a href="#">CATEGORY1</a></li>
+                <li><a href="#">CATEGORY2</a></li>
+                <li><a href="#">CATEGORY3</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">CATEGORY4</a></li>
+                <li><a href="#">CATEGORY5</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">A long sub menu</a>
+
+                    </li>
+                    <li><a href="#">Another link</a></li>
+                    <li><a href="#">One more link</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+
+      <div id="content">
+       <!-- Img slide -->
+       <div id="amazingslider-wrapper-1"class="imgslide1">
+        <div id="amazingslider-1" class="imgslide2">
+          <ul class="amazingslider-slides" style="display:none;">
+            <li><img src="img/index_slide/image1.jpg" alt="H1" /></li>
+            <li><img src="img/index_slide/image2.jpg" alt="what" /></li>
+            <li><img src="img/index_slide/image3.jpg" alt="image3" /></li>
+            <li><img src="img/index_slide/image4.jpg" alt="image4" /></li>
+            <li><img src="img/index_slide/image5.jpg" alt="image5" /></li>
+          </ul>
+          <ul class="amazingslider-thumbnails" style="display:none;">
+            <li><img src="img/index_slide/image1-tn.jpg" alt="image1" /></li>
+            <li><img src="img/index_slide/image2-tn.jpg" alt="image2" /></li>
+            <li><img src="img/index_slide/image3-tn.jpg" alt="image3" /></li>
+            <li><img src="img/index_slide/image4-tn.jpg" alt="image4" /></li>
+            <li><img src="img/index_slide/image5-tn.jpg" alt="image5" /></li>
+          </ul>
+          <div><a href="http://www.powells.com/" title="Powell's books">Powell's books</a></div>
         </div>
-
-
       </div>
 
 
-      <footer>
-        <div class="footer"></div>
-      </footer>
-    </div><!-- Wrappe-->
-  </div> <!-- /container -->
+    </div>
+
+
+    <footer>
+      <div class="footer"></div>
+    </footer>
+  </div><!-- Wrappe-->
+</div> <!-- /container -->
 
 
 
@@ -138,17 +173,32 @@
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <!-- SmartMenus jQuery plugin -->
-    <script type="text/javascript" src="jquery.smartmenus.js"></script>
+    <script type="text/javascript" src="jslib/jquery.smartmenus.js"></script>
     <!-- SmartMenus jQuery Bootstrap Addon -->
     <script type="text/javascript" src="bootstrap/jquery.smartmenus.bootstrap.js"></script>
     <!--      Above four are related to navigation bar-->
 
     <!-- This is for Stick Navigation -->
-    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="jslib/index.js"></script>
 
 
     <!-- Following Two script is for Image Slide -->
     <script src="sliderengine/amazingslider.js"></script>
     <script src="sliderengine/initslider-1.js"></script>
+
+
+    <!-- Include jQuery Popup Overlay -->
+    <script src="jslib/jquery.popupoverlay.js"></script>
+    <script>
+      $(document).ready(function() {
+
+      // Initialize the plugin
+      $('#my_popup').popup({
+        transition: 'all 1s',
+
+      });
+
+    });
+    </script>
   </body>
   </html>

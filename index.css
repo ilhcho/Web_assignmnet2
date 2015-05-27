@@ -50,13 +50,13 @@ a:hover {
   outline: 0;
 }
 a {
-  color: #337ab7;
+  color: #3E89DD;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #23527c;
-  text-decoration: underline;
+  color: rgb(75, 77, 84);
+  /*text-decoration: underline;*/
 }
 a:focus {
   outline: thin dotted;
@@ -1319,4 +1319,41 @@ button{
 
 .icon-search {
   background-position: -48px 0;
+}
+.sign{
+
+  float: left;
+  padding: 6px 5px;
+}
+
+/*light box*/
+.sign_up{
+  display: none;
+  color: #3E89DD;
+  width: 370px;
+  height: 250px;
+  background-color: white;
+  border-radius: 4px;
+}
+.sign_table{
+  margin-top: 10px;
+  margin-left: 5px;
+}
+#close_button{
+  font-size: 20px;
+  padding: 0 20px;
+  float: right;
+  cursor: pointer;
+}
+#close_button:hover{
+  color: grey;
+}
+#sign_up_title{
+  font-size: 26px;
+  text-align: center;  
+}
+
+.sign_input{
+  width: 250px;
+  border-radius: 4px;
 }
