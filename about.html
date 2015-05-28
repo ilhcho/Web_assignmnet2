@@ -9,7 +9,7 @@
 
   <!-- Index Navi and Responsive Css -->
   <link href="index.css" rel="stylesheet">
-
+  <link href="responsive.css" rel="stylesheet">
   <link href="about.css" rel="stylesheet">
   
 <!--Start of Zopim Live Chat Script-->
@@ -27,66 +27,82 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 
   <div class="container">
    <div id="wrapper">
-      <header>
+        <header>
           <div class="header">
             <a href="index.html"><img id="powell_logo" src="img/logos/logo.png" alt="Powell's books logo"></a> 
-
             <div id="sns_logos"> 
               <div class="sign">
-                <a href="">Sign in</a>
+                <a href="" class="my_popup2_open">Sign in</a>
                 <a href="">/</a>
                 <a href="" class="my_popup_open">Sign up </a>
 
                 <!-- Sign up Content -->
                 <div id="my_popup" class="sign_up">
-
-                  <a class="my_popup_close" id="close_button">x</a>
                   <header>   
-                    <h3 id="sign_up_title">Sign Up</h3>    
+                    <h3 class="sign_up_title">Sign Up  <a class="my_popup_close close_button">x</a> </h3>  
                   </header>
+                  <img class="powell_logo_sign" src="img/logos/logo_black.png" alt="Powell's books logo" width="130" height="130">               
                   <form action="#">
                     <table class="sign_table">
                       <tr>
-                        <td><label for="uemail">Email:</label></td>
-                        <td><input class="sign_input" name="uemail" type="text" placeholder="userID@email.com*"  id="uemail" size="35" maxlength="50"><br /></td>
-                      </tr>
-                      <tr>
-                        <td><label for="ufname">First Name:</label></td>
-                        <td><input class="sign_input" name="ufname" type="text" placeholder="Required*"  id="ufname" size="35" maxlength="50"></td>
-                      </tr>
-                      <tr>
-                        <td><label for="ulname">Last Name:</label></td>
-                        <td> <input class="sign_input" name="ulname" type="text" placeholder="Required*"  id="ulname" size="35" maxlength="50"></td>
-                      </tr>
-                      <tr>
-                        <td><label for="upass">Password:</label></td>
-                        <td> <input class="sign_input" name="upass" type="password" placeholder="At least 7 Character*"  id="upass" size="35" maxlength="50"></td>
-                      </tr>
-                      <tr>
-                        <td></td>
-                        <td><button class="btn" name="Submit">SUBMIT</button></td>
-                      </tr>      
-                    </table>               
-                  </form>
-                </div> <!--end of my_popup-->  
-              </div> <!-- end of sing-->
+                       <td><input class="sign_input" name="uemail" type="text" placeholder="userID@email.com*"  id="uemail" size="35" maxlength="50"></td>
+                     </tr>
+                     <tr>
+                       <td><input class="sign_input" name="ufname" type="text" placeholder="First Name*"  id="ufname" size="35" maxlength="50"></td>
+                     </tr>
+                     <tr>
+                      <td> <input class="sign_input" name="ulname" type="text" placeholder="Last Name*"  id="ulname" size="35" maxlength="50"></td>
+                    </tr>
+                    <tr>
+                     <td> <input class="sign_input" name="upass" type="password" placeholder="Password*"  id="upass" size="35" maxlength="50"></td>
+                   </tr>
+                   <tr>                
+                    <td><button class="sign_up_button" name="Submit">SIGN UP</button>
+                      <button type="reset" class="sign_up_button" name="Reset">RESET</button></td>                  
+                    </tr>                 
+                  </table>
+                </form>
+              </div> <!--end of my_popup-->  
+
+              <div id="my_popup2" class="sign_in">
+                <header>   
+                  <h3 class="sign_up_title">Sign In <a class="my_popup2_close close_button">x</a></h3>  
+                </header>
+                <img id="powell_for_sign" src="img/logos/logo_black.png" alt="Powell's books logo" width="130">                  
+                <form action="#">
+                  <table class="sign_table">
+                    <tr>
+                     <td><input class="sign_input" name="uemail" type="text" placeholder="userID@email.com*"  id="uemail" size="35" maxlength="50"></td>
+                   </tr>                     
+                   <tr>
+                     <td> <input class="sign_input" name="upass" type="password" placeholder="Password*"  id="upass" size="35" maxlength="50"></td>
+                   </tr>
+                   <tr>                
+                    <td><button class="sign_up_button" name="Submit">SIGN IN</button>
+                      <button type="reset" class="sign_up_button" name="Reset">RESET</button></td>                  
+                    </tr>                 
+                  </table>
+                </form>
+                </div> <!--end of my_popup2-->  
+            </div> <!-- end of sing-->
+            <div class="search">
+              <form method="get" action="/int/utilities/search/">
+                <input class="textfield gsa-search-field ui-autocomplete-input" type="text" placeholder="Search" name="q" value="" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true">
+                <button type="submit" aria-label="Left Align">
+                 <i class="icon-search"></i>
+               </button>
+             </form>
+           </div>             
+           <a href=""><img src="img/logos/facebook.png" alt="Facebook Icon"></a>
+           <a href=""><img src="img/logos/twitter.png" alt="Titter Icon"></a>
+           <a href=""><img src="img/logos/youtube.png" alt="Youtube Icon"></a>
+           <a href=""><img src="img/logos/instagram.png" alt="Instagram Icon"></a>
 
 
-              <div class="search">
-                <form method="get" action="/int/utilities/search/">
-                  <input class="textfield gsa-search-field ui-autocomplete-input" type="text" placeholder="Search" name="q" value="" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true">
-                  <button type="submit" aria-label="Left Align">
-                   <i class="icon-search"></i>
-                 </button>
-               </form>
-             </div>             
-             <a href=""><img src="img/logos/facebook.png" alt="Facebook Icon"></a>
-             <a href=""><img src="img/logos/twitter.png" alt="Titter Icon"></a>
-             <a href=""><img src="img/logos/youtube.png" alt="Youtube Icon"></a>
-             <a href=""><img src="img/logos/instagram.png" alt="Instagram Icon"></a>
-           </div><!-- End of sns_logos -->
-         </div><!-- End of header -->
-       </header>
+         </div><!-- End of sns_logos -->
+       </div><!-- End of header -->
+     </header>
+
 
 
 
