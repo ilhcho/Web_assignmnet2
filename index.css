@@ -1089,10 +1089,6 @@ tbody.collapse.in {
   background-color: #171717;
   height: 150px;
 }
-.footer{
- background-color: #171717;
- height: 250px;
-}
 
 
 #powell_logo{
@@ -1165,10 +1161,10 @@ button{
   border-radius: 4px;
 }
 .sign_up{
-    height: 240px;
+  height: 240px;
 }
 .sign_in{
-    height: 170px;
+  height: 170px;
 }
 
 .sign_table{
@@ -1214,13 +1210,70 @@ button{
   padding-right:20px; 
 }
 
-.popular{
+.books{
   width: 282px;
   height:370px;
   background-color: red;
   display:inline-block;
 }
 
-#best_seller{
+.each_title{
   padding: 0 20px;
+}
+
+
+
+
+/*Footer ------------------------------*/
+.footer{
+  width: 100%;
+  text-align: center;
+  background-color: #171717;
+  height: 100%;
+  display: inline-block;
+}
+h3{
+  color: white;
+}
+li{
+  list-style: none;
+  padding: 3px 0;
+
+}
+
+.footer_list{
+  font-size: 16px;
+}
+
+section{
+  text-align: center;
+  margin: 0 5.16%; 
+  float: left;
+  height: 100%;
+  border-bottom: rgb(75, 77, 84) 1px solid;
+}
+
+section a{
+  color: rgb(75, 77, 84);
+
+}
+section a:hover{
+  color: white;
+}
+
+.footerImg{
+  vertical-align: middle;
+}
+
+section ul{
+  text-align: left;
+  padding-left: 80px;
+}
+
+.footer_cat{
+  font-size: 16px; 
+}
+
+ul.footer_cat li{
+  padding: 4.55px 20px;
 }

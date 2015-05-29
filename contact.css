@@ -1,0 +1,86 @@
+.contact_form{
+	width: 100%;
+	height: 100%;
+	padding:50px 0;
+	background-color: white;	
+}
+
+.contact_form form table{
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px 0;
+}
+.text_algin_form{
+	text-align: left;
+}
+
+.contact_table input{
+	padding: 5px 0;
+	margin: 5px 0;
+}
+.contact_table input,.contact_table textarea{
+	border-radius:4px; 
+}
+
+.contact_table textarea{
+	-webkit-appearance: textfield;
+	padding: 1px;
+	background-color: white;
+	border: 2px inset;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	-webkit-rtl-ordering: logical;
+	-webkit-user-select: text;
+	cursor: auto;
+}
+
+.required{
+	color: #C10000;
+	font-weight: bold;
+	font-size:22px;
+
+}
+
+.contact_form td{
+	text-align: right;
+}
+
+#sign_up_button{
+	padding: 5px 4px;
+}
+
+.cotact_details{
+	padding-right: 100px;
+	display: inline-block;
+	text-align: left;
+	float: right;	
+	font-size: 16px;
+}
+.tables{
+	display: inline-block;
+
+}
+
+.p_colour{
+	color: #3E89DD;
+	font-weight: bold;
+}
+
+.contact_table label{
+	display: block;
+	font-weight: bold;
+	margin-bottom: 2px;
+	font-size: 14px;
+	color: rgb(102, 102, 102);
+}
+
+.cus2{
+	display: block;
+	font-weight: bold;
+	margin-bottom: 2px;
+	font-size: 14px;
+	color: rgb(102, 102, 102);
+}
