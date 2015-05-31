@@ -1,0 +1,96 @@
+.books{
+	width: 282px;
+	height: 355px;
+	display:inline-block;	
+}
+
+img.books_img{
+	width: 150px;
+	height: 223px;
+}
+
+
+.each_title{
+	
+	padding: 0px 20px;
+}
+
+.category_main{
+	height: 100%;
+	width: 100%;
+}
+
+.price{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	width:150px;
+	color:#171717;
+	font-size:15px;
+	padding:2px 0 0 5px;
+	font-weight:lighter;
+	
+}
+
+.book_des{
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	font-size: 12px;
+}
+
+.add_to_cart{
+	width: 50px;
+	height: 50px;
+}
+
+.cart_div{
+	width: 150px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+}
+
+
+
+.sidebar{
+	border-top: #3E89DD 5px solid;
+	display: none;
+	position: absolute;
+	background-color: white;
+	width: 250px;
+	height: 100%;
+	border-radius: 4px;
+	margin-left: -100px;
+	border-left: #3E89DD 1px solid;
+	border-right: #3E89DD 1px solid;
+}
+
+.cart_button{
+	padding: 13px 0;
+	color: white;
+	font-weight: bold;
+}
+
+#cart_float{
+	float: right;
+	padding: 0 6%;
+}
+.check_out{
+	width: 250px;
+	height: 100%;
+	background-color: white;
+	margin-top: -15px;
+	margin-left: -1px;
+	border-radius: 4px;
+	border-bottom: #3E89DD 3px solid;
+	border-left: #3E89DD 1px solid;
+	border-right: #3E89DD 1px solid;
+	padding-top: 5px;
+}
+
+#cart_title{
+	padding: 0 10px;	
+}
