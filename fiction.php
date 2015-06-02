@@ -2,7 +2,7 @@
 require_once("header.php");
 ?>
 <div id="content">
-  <div class="category_main"><img src="img/fiction books/CoverBook.jpg"/ width="100%"></div>
+  <div class="category_main"><img src="img/fiction books/CoverBook.jpg"/ alt="fiction" width="100%"></div>
   <h1 class="each_title">Fiction</h1>  
   
   <div class="books"> <a href="fiction/fiction1.php"><img class="books_img" src="img/fiction books/fiction.jpg" alt="fiction/fiction"/></a>

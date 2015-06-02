@@ -4,7 +4,7 @@ require_once("header.php");
 
 <div id="content">
 
-  <div class="category_main"><img src="img/romance books/CoverBook.jpg"/ width="100%"></div>
+  <div class="category_main"><img src="img/romance books/CoverBook.jpg"/ alt="romance" width="100%"></div>
   <h1 class="each_title">Romance</h1>
   <div class="books">
     <a href="romance/romance1.php"><img class="books_img" src="img/romance books/romance1.jpg" alt="romance/romance1"/></a>

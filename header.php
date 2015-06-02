@@ -50,13 +50,6 @@ function MM_preloadImages() { //v3.0
 
 </script>
 
-<?php
-$cook = $_GET['id'];
-$fiction = $_GET['id'];
-$horror = $_GET['id'];
-$mystery = $_GET['id'];
-$romance = $_GET['id'];
-?>
 
 <!--End of Zopim Live Chat Script-->
 </head>
@@ -157,7 +150,7 @@ $romance = $_GET['id'];
       <li><a href="index.php">HOME</a></li>
       <li><a href="about.php">ABOUT US</a></li>
       <li><a href="contact.php">CONTACT US</a></li>
-      <li><a href="#">BOOK CATEGORY</a>
+      <li><a href="category.php">BOOK CATEGORY</a>
         <ul class="dropdown-menu">
           <li><a href="cooking.php">COOKING</a></li>
           <li><a href="fiction.php">FICTION</a></li>
@@ -177,7 +170,7 @@ $romance = $_GET['id'];
           </li>
         </ul>
       </li>
-      <li><a href="#">FAQ</a></li>   
+      <li><a href="faq.php">FAQ</a></li>   
       <li id="cart_float">
         <button id="cart_list" class="cart_button"><img src="img/logos/mycart.png" alt="My Cart">MY CART</button>   
         <div id="sidebar" class="sidebar">

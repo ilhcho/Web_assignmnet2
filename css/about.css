@@ -39,3 +39,27 @@
 .each_book_description li{
 	list-style: square;
 }
+
+
+/*FAQ */
+
+.faq_content{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	color:rgb(102, 102, 102);
+	text-align: left;
+	padding: 40px 0;
+}
+.faq_content h1{
+	color: #333;
+}
+
+/*Category*/
+.category_content{
+	padding: 40px 0 20px 0;
+	color: #333;
+}
+.category_content img{
+	width: 60%;
+}
