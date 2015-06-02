@@ -23,15 +23,13 @@ html {
 body {
   margin: 0;
   background: url(../img/bgnoise_lg.png);
-}
-
-body {
-  font-family: 'robotoregular', Helvetica, Arial, sans-serif;
+    font-family: 'robotoregular', Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
 }
+
 
 header,
 menu,
