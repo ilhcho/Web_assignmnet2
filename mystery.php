@@ -7,7 +7,7 @@ require_once("header.php");
   <h1 class="each_title">Mystery</h1>
 
   <div class="books">
-    <a href="mystery/mystery1.php"><img class="books_img" src="img/mystery books/mystery1.jpg" alt="mystery/mystery1"/></a>
+    <a href="mystery1.php"><img class="books_img" src="img/mystery books/mystery1.jpg" alt="mystery1"/></a>
     <div class="book_des"> The Silkworm</div>
     <center><span class="price">$29.95USD</span></center>
     <div class="cart_div">
@@ -17,7 +17,7 @@ require_once("header.php");
     </div>
 
     <div class="books">
-      <a href="mystery/mystery2.php"><img class="books_img" src="img/mystery books/mystery2.jpg" alt="mystery/mystery2"/></a>
+      <a href="mystery2.php"><img class="books_img" src="img/mystery books/mystery2.jpg" alt="mystery2"/></a>
       <div class="book_des">Live by Night</div>
       <center><span class="price">$13.95USD</span></center>
       <div class="cart_div">
@@ -27,7 +27,7 @@ require_once("header.php");
       </div>
 
       <div class="books">
-        <a href="mystery/mystery3.php"><img class="books_img" src="img/mystery books/mystery3.jpg" alt="mystery/mystery3"/></a>
+        <a href="mystery3.php"><img class="books_img" src="img/mystery books/mystery3.jpg" alt="mystery3"/></a>
         <div class="book_des">The Final Detail</div>
         <center><span class="price">$19.99USD</span></center>
         <div class="cart_div">
@@ -35,7 +35,7 @@ require_once("header.php");
         </div>
 
         <div class="books">
-          <a href="mystery/mystery4.php"><img class="books_img" src="img/mystery books/mystery4.jpg" alt="mystery/mystery4"/></a>
+          <a href="mystery4.php"><img class="books_img" src="img/mystery books/mystery4.jpg" alt="mystery4"/></a>
           <div class="book_des"> Night Prey</div>
           <center><span class="price">$9.95USD</span></center>
           <div class="cart_div">
@@ -43,7 +43,7 @@ require_once("header.php");
           </div>
 
           <div class="books">
-            <a href="mystery/mystery5.php"><img class="books_img" src="img/mystery books/mystery5.jpg" alt="mystery/mystery5"/></a>
+            <a href="mystery5.php"><img class="books_img" src="img/mystery books/mystery5.jpg" alt="mystery5"/></a>
             <div class="book_des"> Victims: An Alex Delaware Novel</div>
             <center><span class="price">$21.00USD</span></center>
             <div class="cart_div">
@@ -51,7 +51,7 @@ require_once("header.php");
             </div>
 
             <div class="books">
-              <a href="mystery/mystery6.php"><img class="books_img" src="img/mystery books/mystery6.jpg" alt="mystery/mystery6"/></a>
+              <a href="mystery6.php"><img class="books_img" src="img/mystery books/mystery6.jpg" alt="mystery6"/></a>
               <div class="book_des"> Devil’s Peak</div><center>
               <span class="price">$39.95USD</span></center>
               <div class="cart_div">
@@ -59,7 +59,7 @@ require_once("header.php");
               </div>
 
               <div class="books">
-                <a href="mystery/mystery7.php"><img class="books_img" src="img/mystery books/mystery7.jpg" alt="mystery/mystery7"/></a>
+                <a href="mystery7.php"><img class="books_img" src="img/mystery books/mystery7.jpg" alt="mystery7"/></a>
                 <div class="book_des"> Angels Flight (Harry Bosch)</div>
                 <center><span class="price">$16.50USD</span></center>
                 <div class="cart_div">
@@ -67,7 +67,7 @@ require_once("header.php");
                 </div>
 
                 <div class="books">
-                  <a href="mystery/mystery8.php"><img class="books_img" src="img/mystery books/mystery8.jpg" alt="mystery/mystery8"/></a>
+                  <a href="mystery8.php"><img class="books_img" src="img/mystery books/mystery8.jpg" alt="mystery8"/></a>
                   <div class="book_des"> Jolie Blon's Bounce</div><center><span class="price">$14.95USD</span></center>
                   <div class="cart_div">
                     <a href="#" onclick="simpleCart.add('name=Jolie Blons Bounce','price=14.95','image=img/mystery books/mysterythumbs8.jpg');return false;"> <img src="img/logos/add.png" alt="Add to Cart" class="add_to_cart"></a></div>

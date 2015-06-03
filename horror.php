@@ -6,7 +6,7 @@ require_once("header.php");
   <h1 class="each_title">Horror</h1>
 
   <div class="books">
-    <a href="horror/horror1.php"><img class="books_img" src="img/horror books/horror1.jpg" alt="horror/horror1" /></a>
+    <a href="horror1.php"><img class="books_img" src="img/horror books/horror1.jpg" alt="horror1" /></a>
     <div class="book_des">13 Bullets: A Vampire Tale</div>
     <center><span class="price">$100.00USD</span></center>
     <div class="cart_div">
@@ -14,7 +14,7 @@ require_once("header.php");
     </div></div>
 
     <div class="books">
-      <a href="horror/horror2.php"><img class="books_img" src="img/horror books/horror2.jpg" alt="horror/horror2" /></a>
+      <a href="horror2.php"><img class="books_img" src="img/horror books/horror2.jpg" alt="horror2" /></a>
       <div class="book_des">Abraham Lincoln</div>
       <center><span class="price">$13.95USD</span></center>
       <div class="cart_div">
@@ -22,7 +22,7 @@ require_once("header.php");
       </div></div>
 
       <div class="books">
-        <a href="horror/horror3.php"><img class="books_img" src="img/horror books/horror3.jpg" alt="horror/horror3" /></a>
+        <a href="horror3.php"><img class="books_img" src="img/horror books/horror3.jpg" alt="horror3" /></a>
         <div class="book_des">The Bad Place</div>
         <center><span class="price">$19.99USD</span></center>
         <div class="cart_div">
@@ -30,7 +30,7 @@ require_once("header.php");
         </div></div>
 
         <div class="books">
-          <a href="horror/horror4.php"><img class="books_img" src="img/horror books/horror4.jpg" alt="horror/horror4" /></a>
+          <a href="horror4.php"><img class="books_img" src="img/horror books/horror4.jpg" alt="horror4" /></a>
           <div class="book_des">The Birthing House</div>
           <center><span class="price">$27.25USD</span></center>
           <div class="cart_div">
@@ -38,7 +38,7 @@ require_once("header.php");
           </div></div>
 
           <div class="books">
-            <a href="horror/horror5.php"><img class="books_img" src="img/horror books/horror5.jpg" alt="horror/horror5" /></a>
+            <a href="horror5.php"><img class="books_img" src="img/horror books/horror5.jpg" alt="horror5" /></a>
             <div class="book_des"> Blood Groove</div>
             <center><span class="price">$67.25USD</span></center>
             <div class="cart_div">
@@ -46,7 +46,7 @@ require_once("header.php");
             </div></div>
 
             <div class="books">
-              <a href="horror/horror6.php"><img class="books_img" src="img/horror books/horror6.jpg" alt="horror/horror6" /></a>
+              <a href="horror6.php"><img class="books_img" src="img/horror books/horror6.jpg" alt="horror6" /></a>
               <div class="book_des"> Blue Rose Trilogy #01</div>
               <center><span class="price">$24.99USD</span></center>
               <div class="cart_div">
@@ -54,7 +54,7 @@ require_once("header.php");
               </div></div>
 
               <div class="books">
-                <a href="horror/horror7.php"><img class="books_img" src="img/horror books/horror7.jpg" alt="horror/horror7" /></a>
+                <a href="horror7.php"><img class="books_img" src="img/horror books/horror7.jpg" alt="horror7" /></a>
                 <div class="book_des"> Breed</div>
                 <center><span class="price">$21.00USD</span></center>
                 <div class="cart_div">
@@ -62,7 +62,7 @@ require_once("header.php");
                 </div></div>
 
                 <div class="books">
-                  <a href="horror/horror8.php"><img class="books_img" src="img/horror books/horror8.jpg" alt="horror/horror8" /></a>
+                  <a href="horror8.php"><img class="books_img" src="img/horror books/horror8.jpg" alt="horror8" /></a>
                   <div class="book_des"> Callis Rose</div>
                   <center><span class="price">$39.99USD</span></center>
                   <div class="cart_div">

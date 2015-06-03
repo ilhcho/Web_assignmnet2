@@ -7,7 +7,7 @@ require_once("header.php");
   <div class="category_main"><img src="img/romance books/CoverBook.jpg"/ alt="romance" width="100%"></div>
   <h1 class="each_title">Romance</h1>
   <div class="books">
-    <a href="romance/romance1.php"><img class="books_img" src="img/romance books/romance1.jpg" alt="romance/romance1"/></a>
+    <a href="romance1.php"><img class="books_img" src="img/romance books/romance1.jpg" alt="romance1"/></a>
     <div class="book_des"> Fifty Shades Trilogy #01</div>
     <center><span class="price">$34.00USD</span></center>
      <div class="cart_div">
@@ -15,7 +15,7 @@ require_once("header.php");
   </div></div>
   
   <div class="books">
-    <a href="romance/romance2.php"><img class="books_img" src="img/romance books/romance2.jpg" alt="romance/romance2"/></a>
+    <a href="romance2.php"><img class="books_img" src="img/romance books/romance2.jpg" alt="romance2"/></a>
     <div class="book_des">Outlander (Outlander)</div>
     <center><span class="price">$49.99USD</span></center>
      <div class="cart_div">
@@ -23,7 +23,7 @@ require_once("header.php");
   </div></div>
   
   <div class="books">
-    <a href="romance/romance3.php"><img class="books_img" src="img/romance books/romance3.jpg" alt="romance/romance3"/></a>
+    <a href="romance3.php"><img class="books_img" src="img/romance books/romance3.jpg" alt="romance3"/></a>
     <div class="book_des">The Grand Finale</div>
     <center><span class="price">$14.99USD</span></center>
      <div class="cart_div">
@@ -31,7 +31,7 @@ require_once("header.php");
   </div></div>
 
   <div class="books">
-    <a href="romance/romance4.php"><img class="books_img" src="img/romance books/romance4.jpg" alt="romance/romance4"/></a>
+    <a href="romance4.php"><img class="books_img" src="img/romance books/romance4.jpg" alt="romance4"/></a>
     <div class="book_des">Leopard #04: Wild Fire</div>
     <center><span class="price">$14.99USD</span></center>
      <div class="cart_div">
@@ -39,7 +39,7 @@ require_once("header.php");
   </div></div>
 
   <div class="books">
-    <a href="romance/romance5.php"><img class="books_img" src="img/romance books/romance5.jpg" alt="romance/romance5"/></a>
+    <a href="romance5.php"><img class="books_img" src="img/romance books/romance5.jpg" alt="romance5"/></a>
     <div class="book_des">Pursuit</div>
     <center><span class="price">$15.50USD</span></center>
      <div class="cart_div">
@@ -47,7 +47,7 @@ require_once("header.php");
   </div></div>
 
   <div class="books">
-    <a href="romance/romance6.php"><img class="books_img" src="img/romance books/romance6.jpg" alt="romance/romance6"/></a>
+    <a href="romance6.php"><img class="books_img" src="img/romance books/romance6.jpg" alt="romance6"/></a>
     <div class="book_des">Black Hills</div>
     <center><span class="price">$9.95USD</span></center>
      <div class="cart_div">
@@ -55,7 +55,7 @@ require_once("header.php");
   </div></div>
 
   <div class="books">
-    <a href="romance/romance7.php"><img class="books_img" src="img/romance books/romance7.jpg" alt="romance/romance7"/></a>
+    <a href="romance7.php"><img class="books_img" src="img/romance books/romance7.jpg" alt="romance7"/></a>
     <div class="book_des">Midnight Awakening</div>
     <center><span class="price">$24.99USD</span></center>
      <div class="cart_div">
@@ -63,7 +63,7 @@ require_once("header.php");
   </div></div>
 
   <div class="books">
-    <a href="romance/romance8.php"><img class="books_img" src="img/romance books/romance8.jpg" alt="romance/romance8"/></a>
+    <a href="romance8.php"><img class="books_img" src="img/romance books/romance8.jpg" alt="romance8"/></a>
     <div class="book_des">Mine to Hold</div>
     <center><span class="price">$39.99USD</span></center>
      <div class="cart_div">

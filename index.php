@@ -21,7 +21,7 @@ require_once("header.php");
 <h1 class="each_title">Best Sellers</h1>
 
 <div class="books">
-  <a href="fiction/fiction1.php"><img class="books_img" src="img/fiction books/fiction.jpg" alt="fiction"/></a>
+  <a href="fiction1.php"><img class="books_img" src="img/fiction books/fiction.jpg" alt="fiction"/></a>
   <div class="book_des">  White Fire</div>
   <center><span class="price">$13.95USD</span></center>
   <div class="cart_div">
@@ -29,7 +29,7 @@ require_once("header.php");
   </div></div>
 
   <div class="books">
-    <a href="romance/romance1.php"><img class="books_img" src="img/romance books/romance1.jpg" alt="romance1"/></a>
+    <a href="romance1.php"><img class="books_img" src="img/romance books/romance1.jpg" alt="romance1"/></a>
     <div class="book_des"> Fifty Shades Trilogy #01</div>
     <center><span class="price">$34.00USD</span></center>
     <div class="cart_div">
@@ -37,7 +37,7 @@ require_once("header.php");
    </div></div>
 
    <div class="books">
-    <a href="mystery/mystery1.php"><img class="books_img" src="img/mystery books/mystery1.jpg" alt="mystery1"/></a>
+    <a href="mystery1.php"><img class="books_img" src="img/mystery books/mystery1.jpg" alt="mystery1"/></a>
     <div class="book_des"> The Silkworm</div>
     <center><span class="price">$29.95USD</span></center>
     <div class="cart_div">
@@ -45,7 +45,7 @@ require_once("header.php");
    </div></div>
 
    <div class="books">
-    <a href="cooking/cook1.php"><img class="books_img" src="img/cooking and food books/cook1.jpg" alt="cook1"/></a>
+    <a href="cook1.php"><img class="books_img" src="img/cooking and food books/cook1.jpg" alt="cook1"/></a>
     <div class="book_des"> The Baby-Led Weaning Cookbook</div>
     <center><span class="price">$15.95USD</span></center>
     <div class="cart_div">
@@ -53,7 +53,7 @@ require_once("header.php");
    </div></div>
 
    <div class="books">
-    <a href="horror/horror1.php"><img class="books_img" src="img/horror books/horror1.jpg" alt="horror1"/></a>
+    <a href="horror1.php"><img class="books_img" src="img/horror books/horror1.jpg" alt="horror1"/></a>
     <div class="book_des">  13 Bullets: A Vampire Tale</div>
     <center><span class="price">$100.00USD</span></center>
     <div class="cart_div">
@@ -61,7 +61,7 @@ require_once("header.php");
     </div></div>
 
     <div class="books">
-      <a href="fiction/fiction2.php"><img class="books_img" src="img/fiction books/fiction2.jpg" alt="fiction2"/></a>
+      <a href="fiction2.php"><img class="books_img" src="img/fiction books/fiction2.jpg" alt="fiction2"/></a>
       <div class="book_des"> Lost Light (Harry Bosch)</div>
       <center><span class="price">$20.00USD</span></center>
       <div class="cart_div">
@@ -69,7 +69,7 @@ require_once("header.php");
      </div></div>
 
      <div class="books">
-      <a href="romance/romance2.php"><img class="books_img" src="img/romance books/romance2.jpg" alt="romance2"/></a>
+      <a href="romance2.php"><img class="books_img" src="img/romance books/romance2.jpg" alt="romance2"/></a>
       <div class="book_des"> Outlander (Outlander)</div>
       <center><span class="price">$49.99USD</span></center>
       <div class="cart_div">
@@ -77,7 +77,7 @@ require_once("header.php");
      </div></div>
 
      <div class="books">
-      <a href="mystery/mystery2.php"><img class="books_img" src="img/mystery books/mystery2.jpg" alt="mystery2"/></a>
+      <a href="mystery2.php"><img class="books_img" src="img/mystery books/mystery2.jpg" alt="mystery2"/></a>
       <div class="book_des">Live by Night</div>
       <center><span class="price">$13.95USD</span></center>
       <div class="cart_div">
