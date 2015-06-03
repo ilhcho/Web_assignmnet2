@@ -20,7 +20,7 @@ require_once("header.php");
   </div></div>
   
   <div class="books"> <a href="fiction/fiction3.php"><img class="books_img" src="img/fiction books/fiction3.jpg" alt="fiction/fiction3"/></a>
-    <div class="book_des"> The Burning Room (Harry Bosch Novel)</div>
+    <div class="book_des"> The Burning Room </div>
     <center><span class="price">$19.95USD</span></center>
     <div class="cart_div">
       <a href="#" onclick="simpleCart.add('name=The Burning Room','price=19.95','image=img/fiction books/fictionthumbs3.jpg');return false;"> <img src="img/logos/add.png" alt="Add to Cart" class="add_to_cart"></a>

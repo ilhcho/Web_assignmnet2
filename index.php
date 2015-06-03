@@ -13,6 +13,7 @@ require_once("header.php");
       <li><img src="img/index_slide/image4.jpg" alt="" /></li>
       <li><img src="img/index_slide/image5.jpg" alt="" /></li>
     </ul>
+    
     <div><a href="http://www.powells.com/" title="Powell's books">Powell's books</a></div>
   </div>
 </div>

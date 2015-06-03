@@ -153,8 +153,8 @@ $romance = $_GET['id'];
   <div class="navbar-collapse collapse">
     <!-- Left nav -->
     <ul class="nav navbar-nav">
-      <li><a href="../index.php">HOME</a></li>
-      <li><a href="../about.php">ABOUT US</a></li>
+      <li><a href="#" onclick="open_url('../about.php','content');">ABOUT US</a></li>
+      <li><a href="#" onclick="open_url('../contact.php','content');">CONTACT US</a></li>
       <li><a href="../contact.php">CONTACT US</a></li>
       <li><a href="#">BOOK CATEGORY</a>
         <ul class="dropdown-menu">
@@ -176,7 +176,7 @@ $romance = $_GET['id'];
           </li>
         </ul>
       </li>
-      <li><a href="#">FAQ</a></li>   
+       <li><a href="#" onclick="open_url('../faq.php','content');">FAQ</a></li>
       <li id="cart_float">
         <button id="cart_list" class="cart_button"><img src="../img/logos/mycart.png" alt="My Cart">MY CART</button>   
         <div id="sidebar" class="sidebar">

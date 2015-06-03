@@ -15,31 +15,54 @@
 }
 
 #content p{
-	padding:5px 60px;
+	padding:6px 70px;
+	line-height: 1.4;
 }
 
 /*Each book*/
 
 .each_book_content{
 	text-align: left;
+	display: inline-block;
+	height: 300px;
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 40px 0;
 	color:rgb(102, 102, 102);
 }
+img.each_book_img {
+	float: left;
+	padding:0px 60px;
 
+}
 .each_book_description{
+	position: relative;
 	text-align: justify;
-	width: 95%;
+	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
+	padding-bottom:5px;
+
 }
 
 .each_book_description li{
 	list-style: square;
 }
 
+.each_book_title h4,p{ 
+	margin: 0;
+	line-height: 1;
+}
+.each_book_title h4{
+	color: black;
+}
+
+.each_price{
+	padding: 25px 0;
+	font-size: 25px;
+	color: black;
+}
 
 /*FAQ */
 

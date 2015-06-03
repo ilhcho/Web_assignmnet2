@@ -1,44 +1,43 @@
 <?php
 require_once("header.php");
 ?>
-
 <div id="content">
 
-<br><br><img src="../img/horror books/horror5.jpg"/>
-
-<p align="left">&nbsp;&nbsp;<strong>Name:</strong>Blood Groove (Playaway Adult Fiction)<br>
+<div class="each_book_content">
+<img class="each_book_img" src="../img/horror books/horror5.jpg"/>
+<div class="each_book_title">
+<h4>Blood Groove (Playaway Adult Fiction)</h4>
+<p>Bledsoe, Alex</p>
+<p>ISBN:9781433263958</p>
+<p class="each_price">$67.25</p>
+<p>
 </p>
-
-<p align="left">
-&nbsp;&nbsp;<strong>Price:</strong>$67.25USD<br>
-</p>
-
-<p align="left">
-&nbsp;&nbsp;<strong>Synopses and review:</strong><br>
-&nbsp;&nbsp;When vampire Baron Rudolfo Zginski was staked in Wales in 1915, the last thing he expected was to reawaken in Memphis, Tennessee, sixty years later. Reborn into a new world &nbsp;&nbsp;of racial tensions, he must adapt quickly if he is to survive, and he forms an alliance with a nest of teenage vampires.
-
-<br>
-</p>
-
-<div align="left">
-&nbsp;&nbsp;<strong>Product Details:</strong>
-<br>&nbsp;&nbsp;<strong>ISBN:</strong> 9781433263958
-<br>&nbsp;&nbsp;<strong>Author:</strong> Bledsoe, Alex
-<br>&nbsp;&nbsp;<strong>Publisher:</strong> Blackstone Audiobooks
-<br>&nbsp;&nbsp;<strong>Read by:</strong> Rudnicki, Stefan
-<br>&nbsp;&nbsp;<strong>Read:</strong> Rudnicki, Stefan
-<br>&nbsp;&nbsp;<strong>Author:</strong> Rudnicki, Stefan
-<br>&nbsp;&nbsp;<strong>Subject:</strong> Horror - General
-<br>&nbsp;&nbsp;<strong>Series:</strong> Playaway Adult Fiction
-<br>&nbsp;&nbsp;<strong>Publication Date:</strong> 20090731
-<br>&nbsp;&nbsp;<strong>Binding:</strong> PRE-RECORDED AUDIO PLAYER
-<br>&nbsp;&nbsp;<strong>Language:</strong> English
-<br>&nbsp;&nbsp;<strong>Dimensions:</strong> 7.20x5.40x.90 in. .40 lbs.
-<br>&nbsp;&nbsp;<strong>Link:</strong> <a href="http://www.powells.com/biblio/62-9781433263958-1" target="_blank">Click Here To Link To The Book</a>
-</div>       
-
-
+<a class="cart_icon" href="#" onclick="simpleCart.add('name=Live by Night','price=13.95','image=../img/mystery books/mysterythumbs2.jpg');return false;"> <img src="../img/logos/add.png" alt="Add to Cart" class="add_to_cart"></a>
 </div>
+</div><!-- End of each book content-->
+
+
+
+<div class="each_book_description">
+<br />
+<strong>Synopses and review:</strong><br>The official reports say the last vampire was killed by a fed named Arkeley in the 80s. But tonight, it looks otherwise. When state trooper Laura Caxton calls the FBI for help in the middle of the night, Arkeley gets the assignment.
+
+<br />
+<strong>Product Details:</strong>
+
+<br><strong>Publisher:</strong> Blackstone Audiobooks
+<br><strong>Read by:</strong> Rudnicki, Stefan
+<br><strong>Read:</strong> Rudnicki, Stefan
+<br><strong>Author:</strong> Rudnicki, Stefan
+<br><strong>Subject:</strong> Horror - General
+<br><strong>Series:</strong> Playaway Adult Fiction
+<br><strong>Publication Date:</strong> 20090731
+<br><strong>Binding:</strong> PRE-RECORDED AUDIO PLAYER
+<br><strong>Language:</strong> English
+<br><strong>Dimensions:</strong> 7.20x5.40x.90 in. .40 lbs.
+<br><strong>Link:</strong> <a href="http://www.powells.com/biblio/62-9781433263958-1" target="_blank">Click Here To Link To The Book</a>
+</div><!-- End of each book des-->
+
 </div><!-- End of content-->
 <?php
 require_once("footer.php");

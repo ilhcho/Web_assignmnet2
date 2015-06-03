@@ -1,6 +1,4 @@
-<?php
-require_once("header.php");
-?>
+
 <div id="content">
  <!-- Youtube Clip -->
  <iframe class="about_youtube" src="https://www.youtube.com/embed/EklehoXdn-I" frameborder="0" allowfullscreen></iframe>
@@ -25,6 +23,3 @@ require_once("header.php");
               </p>
 </div>
 
-            <?php
-            require_once("footer.php");
-            ?>
