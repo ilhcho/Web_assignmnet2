@@ -4,28 +4,28 @@
         <section>
           <h3>Fiund us on</h3>
           <ul class="footer_list">
-            <li><a href="https://www.facebook.com/powellsbooks?ref=mf" target="_blank"><img class="footerImg" src="img/logos/facebook.png" alt="Facebook Icon" >Facebook</a></li>
-            <li><a href="https://twitter.com/Powells" target="_blank"><img class="footerImg" src="img/logos/twitter.png" alt="Titter Icon">Twitter</a></li>
-            <li><a href="#"><img class="footerImg" src="img/logos/youtube.png" alt="Youtube Icon">Youtube</a></li>
-            <li><a href="https://instagram.com/powellsbooks/" target="_blank"><img class="footerImg" src="img/logos/instagram.png" alt="Instagram Icon">Instagram</a></li>
+            <li><a href="https://www.facebook.com/powellsbooks?ref=mf" target="_blank" title="facebook"><img class="footerImg" src="img/logos/facebook.png" alt="Facebook Icon" >Facebook</a></li>
+            <li><a href="https://twitter.com/Powells" target="_blank" title="twitter"><img class="footerImg" src="img/logos/twitter.png" alt="Titter Icon">Twitter</a></li>
+            <li><a href="#" title="youtube"><img class="footerImg" src="img/logos/youtube.png" alt="Youtube Icon">Youtube</a></li>
+            <li><a href="https://instagram.com/powellsbooks/" target="_blank" title="instagram"><img class="footerImg" src="img/logos/instagram.png" alt="Instagram Icon">Instagram</a></li>
           </ul>
         </section>
         <section>
           <h3>Category</h3>
           <ul class="footer_cat">
-            <li><a href="" target="_black">Cooking</a></li>
-            <li><a href="" target="_black">Romance</a></li>
-            <li><a href="" target="_black">Fiction</a></li>
-            <li><a href="" target="_black">Mystery</a></li>
-            <li><a href="" target="_black">Horror</a></li>
+            <li><a href="cooking.php" target="_black" title="cooking">Cooking</a></li>
+            <li><a href="romance.php" target="_black" title="romance">Romance</a></li>
+            <li><a href="fiction.php" target="_black" title="fiction">Fiction</a></li>
+            <li><a href="mystery.php" target="_black" title="mystery">Mystery</a></li>
+            <li><a href="horror.php" target="_black" title="horror">Horror</a></li>
           </ul>
         </section>
         <section>
           <h3>About Us</h3>
           <ul class="footer_cat">
-            <li><a href="" target="_black">About us</a></li>
-            <li><a href="" target="_black">Contact us</a></li>
-            <li><a href="" target="_black">FAQ</a></li>
+            <li><a href="about.php" target="_black" title="about us">About us</a></li>
+            <li><a href="contact.php" target="_black" title="contact us">Contact us</a></li>
+            <li><a href="faq.php" target="_black" title="faq">FAQ</a></li>
             <li></li>   
             <li></li>   
             <li></li>   

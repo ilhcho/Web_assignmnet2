@@ -22,6 +22,12 @@
  <meta name="theme-color" content="#ffffff">
  <!-- ************** Favicon end -->
 
+
+ <!-- This is CEO Keywords -->
+ <meta name="keywords" content="Powells' books, Onlie book store, fiction, cooking, food, horror, mystery, romance, non fiction,
+ drama, gardening ">
+
+
  <meta charset="utf-8">
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
@@ -60,17 +66,17 @@ function MM_preloadImages() { //v3.0
    <div id="wrapper">
     <header>
       <div class="header">
-        <a href="index.php"><img id="powell_logo" src="img/logos/logo.png" alt="Powell's books logo"></a> 
+      <a href="index.php" title="powells' books store main page"><img id="powell_logo" src="img/logos/logo.png" alt="Powell's books logo"></a> 
         <div id="sns_logos"> 
           <div class="sign">
             <a href="" class="my_popup2_open" title="sign in">Sign in</a>
-            <a href="">/</a>
-            <a href="" class="my_popup_open">Sign up </a>
+            <a href="" title="/">/</a>
+            <a href="" class="my_popup_open" title="sign up">Sign up </a>
 
             <!-- Sign up Content -->
             <div id="my_popup" class="sign_up">
               <header>   
-                <h3 class="sign_up_title">Sign Up  <a class="my_popup_close close_button">x</a> </h3>  
+                <h3 class="sign_up_title">Sign Up  <a class="my_popup_close close_button" title="close button">x</a> </h3>  
               </header>
               <img class="powell_logo_sign" src="img/logos/logo_black.png" alt="Powell's books logo" width="130" height="130">               
               <form action="#">
@@ -97,7 +103,7 @@ function MM_preloadImages() { //v3.0
 
           <div id="my_popup2" class="sign_in">
             <header>   
-              <h3 class="sign_up_title">Sign In <a class="my_popup2_close close_button">x</a></h3>  
+              <h3 class="sign_up_title">Sign In <a class="my_popup2_close close_button" title="close button">x</a></h3>  
             </header>
             <img id="powell_for_sign" src="img/logos/logo_black.png" alt="Powell's books logo" width="130">                  
             <form action="#">
@@ -124,10 +130,10 @@ function MM_preloadImages() { //v3.0
            </button>
          </form>
        </div>             
-       <a href="https://www.facebook.com/powellsbooks?ref=mf" target="_blank"><img src="img/logos/facebook.png" alt="Facebook Icon" id="Image1" onMouseOver="MM_swapImage('Image1','','img/logos/facebook_white.png',1)" onMouseOut="MM_swapImgRestore()"></a>
-       <a href="https://twitter.com/Powells" target="_blank"><img src="img/logos/twitter.png" alt="Titter Icon" id="Image2" onMouseOver="MM_swapImage('Image2','','img/logos/twitter_white.png',1)" onMouseOut="MM_swapImgRestore()"></a>
-       <a href="#"><img src="img/logos/youtube.png" alt="Youtube Icon" id="Image3" onMouseOver="MM_swapImage('Image3','','img/logos/yotube_white.png',1)" onMouseOut="MM_swapImgRestore()"></a>
-       <a href="https://instagram.com/powellsbooks/" target="_blank"><img src="img/logos/instagram.png" alt="Instagram Icon" id="Image4" onMouseOver="MM_swapImage('Image4','','img/logos/instagram_white.png',1)" onMouseOut="MM_swapImgRestore()"></a>
+       <a href="https://www.facebook.com/powellsbooks?ref=mf" target="_blank" title="facebook"><img src="img/logos/facebook.png" alt="Facebook Icon" id="Image1" onMouseOver="MM_swapImage('Image1','','img/logos/facebook_white.png',1)" onMouseOut="MM_swapImgRestore()"></a>
+       <a href="https://twitter.com/Powells" target="_blank" title="twitter"><img src="img/logos/twitter.png" alt="Titter Icon" id="Image2" onMouseOver="MM_swapImage('Image2','','img/logos/twitter_white.png',1)" onMouseOut="MM_swapImgRestore()"></a>
+       <a href="#" title="youtube"><img src="img/logos/youtube.png" alt="Youtube Icon" id="Image3" onMouseOver="MM_swapImage('Image3','','img/logos/yotube_white.png',1)" onMouseOut="MM_swapImgRestore()"></a>
+       <a href="https://instagram.com/powellsbooks/" target="_blank" title="instagram"><img src="img/logos/instagram.png" alt="Instagram Icon" id="Image4" onMouseOver="MM_swapImage('Image4','','img/logos/instagram_white.png',1)" onMouseOut="MM_swapImgRestore()"></a>
 
 
      </div><!-- End of sns_logos -->
@@ -147,18 +153,18 @@ function MM_preloadImages() { //v3.0
   <div class="navbar-collapse collapse">
     <!-- Left nav -->
     <ul class="nav navbar-nav">
-      <li><a href="index.php">HOME</a></li>
-      <li><a href="#" onclick="open_url('about.php','content');">ABOUT US</a></li>
-      <li><a href="#" onclick="open_url('contact.php','content');">CONTACT US</a></li>
-      <li><a href="category.php">BOOK CATEGORY</a>
+      <li><a href="index.php" title="Powell's book main page">HOME</a></li>
+      <li><a href="#" onclick="open_url('about.php','content');" title="about us">ABOUT US</a></li>
+      <li><a href="#" onclick="open_url('contact.php','content');" title="contact us">CONTACT US</a></li>
+      <li><a href="category.php" title="category">BOOK CATEGORY</a>
         <ul class="dropdown-menu">
-          <li><a href="cooking.php">COOKING</a></li>
-          <li><a href="fiction.php">FICTION</a></li>
-          <li><a href="romance.php">ROMANCE</a></li>
+          <li><a href="cooking.php" title="cooking">COOKING</a></li>
+          <li><a href="fiction.php" title="fiction">FICTION</a></li>
+          <li><a href="romance.php" title="romance">ROMANCE</a></li>
           <!-- <li class="divider"></li>
           <li class="dropdown-header">Nav header</li> -->
-          <li><a href="mystery.php">MYSTERY</a></li>
-          <li><a href="horror.php">HORROR</a>
+          <li><a href="mystery.php" title="mystery">MYSTERY</a></li>
+          <li><a href="horror.php" title="horror">HORROR</a>
           <!--   <ul class="dropdown-menu">
               <li><a href="#">Action</a></li>
               <li><a href="#">Another action</a></li>
@@ -170,7 +176,7 @@ function MM_preloadImages() { //v3.0
           </li>
         </ul>
       </li>
-      <li><a href="#" onclick="open_url('faq.php','content');">FAQ</a></li>   
+      <li><a href="#" onclick="open_url('faq.php','content');" title="FAQ">FAQ</a></li>   
       <li id="cart_float">
         <button id="cart_list" class="cart_button"><img src="img/logos/mycart.png" alt="My Cart">MY CART</button>   
         <div id="sidebar" class="sidebar">
@@ -179,12 +185,23 @@ function MM_preloadImages() { //v3.0
           <div class="simpleCart_items" >
           </div>
           <div  class="check_out">
-            <a href="#" class="simpleCart_empty"><button class="sign_up_button">Empty</button></a>
-            <a href="#" class="simpleCart_checkout"><button class="sign_up_button">Checkout</button></a>
+            <a href="#" class="simpleCart_empty" title="empty"><button class="sign_up_button">Empty</button></a>
+            <a href="#" class="simpleCart_checkout" title="checkout"><button class="sign_up_button">Checkout</button></a>
           </div>
           <!--Here's the Links to Checkout and Empty Cart-->  
         </div>
       </li>         
     </ul>    
   </div><!--/.nav-collapse -->
+
+  <div class="internal_box">
+   <form method="get" action="#">
+    <input class="internal" type="text" placeholder="Search by keyword, product, title or Author in Powell's book" value="" onkeyup="ajax(this.value)";>
+    <button class="internal_btn" type="submit" aria-label="Left Align">
+     <i class="icon-search"></i>
+   </button>
+   <div id="result"></div>
+ </form>
+
+</div>
 </div>

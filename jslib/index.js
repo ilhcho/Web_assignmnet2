@@ -85,3 +85,37 @@ $(document).ready(function(){
   function set_loading_message(msg) {
     please_wait = msg;
   }
+
+  // Ajax look up(search)
+
+
+      function ajax(str) {
+        var xmlhttp;
+        try {
+          xmlhttp=new XMLHttpRequest();
+        }
+        catch (e) {
+          try {
+            xmlhttp=new ActiveXObject("Msxml2.XMLHTTP");
+          }
+          catch (e) {
+            try {
+              xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            catch (e) {
+              alert("Your browser does not support AJAX!");
+              return false;
+            }
+          }
+        }
+
+        var url='ajax.php?data='+str;
+        xmlhttp.onreadystatechange=function() {
+          if(xmlhttp.readyState==4) {
+            document.getElementById('result').innerHTML=
+            xmlhttp.responseText;
+          }  
+        }
+        xmlhttp.open("GET",url,true);
+        xmlhttp.send(null);
+      }

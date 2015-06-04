@@ -4,7 +4,7 @@ require_once("header.php");
 <div id="content">
 
 <div class="each_book_content">
-<img class="each_book_img" src="img/cooking and food books/cook8.jpg"/>
+<img class="each_book_img" src="img/cooking and food books/cook8.jpg"/ alt="cook8">
 <div class="each_book_title">
 <h4>Tartine Book No. 3</h4>
 <p>Robertson, Chad</p>
@@ -12,7 +12,7 @@ require_once("header.php");
 <p class="each_price">$24.98</p>
 <p>
 </p>
-<a class="cart_icon" href="#" onclick="simpleCart.add('name=Live by Night','price=13.95','image=img/mystery books/mysterythumbs2.jpg');return false;"> <img src="img/logos/add.png" alt="Add to Cart" class="add_to_cart"></a>
+<a class="cart_icon" href="#" onclick="simpleCart.add('name=Live by Night','price=13.95','image=img/mystery books/mysterythumbs2.jpg');return false;" title="cart add"> <img src="img/logos/add.png" alt="Add to Cart" class="add_to_cart"></a>
 </div>
 </div><!-- End of each book content-->
 
@@ -43,7 +43,7 @@ Most homes built in the United States over the last fifty years were merely plop
 <br><strong>Language:</strong> English
 <br><strong>Pages:</strong> 304
 <br><strong>Dimensions:</strong> 10.5 x 9 x 1.5 in 3.06 lb
-<br><strong>Link:</strong> <a href="http://www.powells.com/biblio/1-9781452114309-7" target="_blank">Click Here To Link To The Book</a>
+<br><strong>Link:</strong> <a href="http://www.powells.com/biblio/1-9781452114309-7" target="_blank" title="book link">Click Here To Link To The Book</a>
 
 </div><!-- End of each book des-->
 
