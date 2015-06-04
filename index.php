@@ -7,11 +7,11 @@ require_once("header.php");
  <div id="amazingslider-wrapper-1"class="imgslide1">
   <div id="amazingslider-1" class="imgslide2">
     <ul class="amazingslider-slides" style="display:none;">
-      <li><img src="img/index_slide/image1.jpg" alt="img1" /></li>
-      <li><img src="img/index_slide/image2.jpg" alt="img2" /></li>
-      <li><img src="img/index_slide/image3.jpg" alt="img3" /></li>
-      <li><img src="img/index_slide/image4.jpg" alt="img4" /></li>
-      <li><img src="img/index_slide/image5.jpg" alt="img5" /></li>
+      <li><img src="img/index_slide/image1.jpg"/></li>
+      <li><img src="img/index_slide/image2.jpg"/></li>
+      <li><img src="img/index_slide/image3.jpg"/></li>
+      <li><img src="img/index_slide/image4.jpg"/></li>
+      <li><img src="img/index_slide/image5.jpg"/></li>
     </ul>
     
     <div><a href="http://www.powells.com/" title="Powell's books">Powell's books</a></div>
