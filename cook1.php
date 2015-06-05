@@ -14,7 +14,7 @@ require_once("header.php");
 The Baby-Led Weaning Cookbook will give parents the confidence to create exciting and 
 enjoyable mealtimes that will encourage little ones to develop food skills at their own 
 pace.</p>
-<a class="cart_icon" href="#" onclick="simpleCart.add('name=Live by Night','price=13.95','image=img/mystery books/mysterythumbs2.jpg');return false;"> <img src="img/logos/add.png" alt="Add to Cart" class="add_to_cart"></a>
+<a class="cart_icon" href="#" onclick="simpleCart.add('name=The Baby-Led Weaning Cookbook','price=15.95','image=img/cooking and food books/cookthumbs.jpg');return false;"> <img src="img/logos/add.png" alt="Add to Cart" class="add_to_cart"></a>
 </div>
 </div><!-- End of each book content-->
 

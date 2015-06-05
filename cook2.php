@@ -12,7 +12,7 @@ require_once("header.php");
 <p class="each_price">$17.50</p>
 <p>
 The companion cookbook to the hit show Portlandia by the Emmy-nominated stars and writers Fred Armisen and Carrie Brownstein, with 50 delicious recipes for every food lover, freegan, organic farmer, and food truck diehard.</p>
-<a class="cart_icon" href="#" onclick="simpleCart.add('name=Live by Night','price=13.95','image=img/mystery books/mysterythumbs2.jpg');return false;"> <img src="img/logos/add.png" alt="Add to Cart" class="add_to_cart"></a>
+<a class="cart_icon" href="#" onclick="simpleCart.add('name=The Portlandia Cookbook','price=17.50','image=img/cooking and food books/cookthumbs2.jpg');return false;"> <img src="img/logos/add.png" alt="Add to Cart" class="add_to_cart"></a>
 </div>
 </div><!-- End of each book content-->
 

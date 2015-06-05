@@ -82,16 +82,16 @@ function MM_preloadImages() { //v3.0
               <form action="#">
                 <table class="sign_table">
                   <tr>
-                   <td><input class="sign_input" name="uemail" type="text" placeholder="userID@email.com*"  id="uemail" size="35" maxlength="50"></td>
+                   <td><input class="sign_input" name="uemail" type="email" placeholder="userID@email.com*"  id="uemail" size="35" maxlength="50" required ></td>
                  </tr>
                  <tr>
-                   <td><input class="sign_input" name="ufname" type="text" placeholder="First Name*"  id="ufname" size="35" maxlength="50"></td>
+                   <td><input class="sign_input" name="ufname" type="text" placeholder="First Name*"  id="ufname" size="35" maxlength="50" required></td>
                  </tr>
                  <tr>
-                  <td> <input class="sign_input" name="ulname" type="text" placeholder="Last Name*"  id="ulname" size="35" maxlength="50"></td>
+                  <td> <input class="sign_input" name="ulname" type="text" placeholder="Last Name*"  id="ulname" size="35" maxlength="50" required></td>
                 </tr>
                 <tr>
-                 <td> <input class="sign_input" name="upass" type="password" placeholder="Password*"  id="upass" size="35" maxlength="50"></td>
+                 <td> <input class="sign_input" name="upass" type="password" placeholder="Password*"  id="upass" size="35" maxlength="50" required></td>
                </tr>
                <tr>                
                 <td><button class="sign_up_button" name="Submit">SIGN UP</button>
@@ -109,10 +109,10 @@ function MM_preloadImages() { //v3.0
             <form action="#">
               <table class="sign_table">
                 <tr>
-                 <td><input class="sign_input" name="uemail" type="text" placeholder="userID@email.com*"  id="uemail" size="35" maxlength="50"></td>
+                 <td><input class="sign_input" name="uemail" type="text" placeholder="userID@email.com*"  id="uemail" size="35" maxlength="50" required></td>
                </tr>                     
                <tr>
-                 <td> <input class="sign_input" name="upass" type="password" placeholder="Password*"  id="upass" size="35" maxlength="50"></td>
+                 <td> <input class="sign_input" name="upass" type="password" placeholder="Password*"  id="upass" size="35" maxlength="50" required></td>
                </tr>
                <tr>                
                 <td><button class="sign_up_button" name="Submit">SIGN IN</button>
